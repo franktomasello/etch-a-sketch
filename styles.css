@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+body {
+    text-align: center;
+    font-family: 'Pacifico', cursive;
+}
+
+#mainContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+#title {
+    font-size: 3em;
+    margin-bottom: 1em;
+}
+
+#etchGif {
+    max-width: 640px;
+    height: auto;
+    margin: 0 auto; 
+}
+
+#container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 30em);
+}
+
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    width: 640px;
+}
+
+.cell {
+    box-sizing: border-box;
+    width: 40px;
+    height: 40px;
+    border: 1px solid #000;
+}
